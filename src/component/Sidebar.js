@@ -21,68 +21,68 @@ const Sidebar = () => {
       <div className="mt-6 ml-4 text-gray-500">
         <div className="mb-4">
           <div className="pb-2">MAIN</div>
-          <div className="ml-2 flex gap-2">
-            <MdDashboard className="text-2xl text-purple-600" />
+          <div className="ml-2 items-center flex gap-2">
+            <MdDashboard className="text-xl text-purple-600" />
             <div>Dashboard</div>
           </div>
         </div>
 
         <div className="mb-4">
           <div className="pb-2">LISTS</div>
-          <div className="ml-2 flex gap-2 pb-2">
-            <BsPerson className="text-2xl text-purple-600" />
+          <div className="ml-2 items-center flex gap-2 pb-2">
+            <BsPerson className="text-xl text-purple-600" />
             <div>Users</div>
           </div>
-          <div className="ml-2 flex gap-2 pb-2">
-            <SiHomeassistantcommunitystore className="text-2xl text-purple-600" />
+          <div className="ml-2 items-center flex gap-2 pb-2">
+            <SiHomeassistantcommunitystore className="text-xl text-purple-600" />
             <div>Products</div>
           </div>
-          <div className="ml-2 flex gap-2 pb-2">
-            <BsCreditCard2Back className="text-2xl text-purple-600" />
+          <div className="ml-2 items-center flex gap-2 pb-2">
+            <BsCreditCard2Back className="text-xl text-purple-600" />
             <div>Orders</div>
           </div>
-          <div className="ml-2 flex gap-2 pb-2">
-            <TbTruckDelivery className="text-2xl text-purple-600" />
+          <div className="ml-2 items-center flex gap-2 pb-2">
+            <TbTruckDelivery className="text-xl text-purple-600" />
             <div>Delivery</div>
           </div>
         </div>
 
         <div className="mb-4">
           <div className="pb-2">USEFUL</div>
-          <div className="ml-2 flex gap-2 pb-2">
-            <ImStatsDots className="text-2xl text-purple-600" />
+          <div className="ml-2 items-center flex gap-2 pb-2">
+            <ImStatsDots className="text-xl text-purple-600" />
             <div>Stats</div>
           </div>
-          <div className="ml-2 flex gap-2 pb-2">
-            <IoIosNotificationsOutline className="text-2xl text-purple-600" />
+          <div className="ml-2 items-center flex gap-2 pb-2">
+            <IoIosNotificationsOutline className="text-xl text-purple-600" />
             <div>Notifications</div>
           </div>
         </div>
 
         <div className="mb-4">
           <div className="pb-2">SERVICE</div>
-          <div className="ml-2 flex gap-2 pb-2">
-            <MdHealthAndSafety className="text-2xl text-purple-600" />
+          <div className="ml-2 items-center flex gap-2 pb-2">
+            <MdHealthAndSafety className="text-xl text-purple-600" />
             <div>System Health</div>
           </div>
-          <div className="ml-2 flex gap-2 pb-2">
-            <SiLogstash className="text-2xl text-purple-600" />
+          <div className="ml-2 items-center flex gap-2 pb-2">
+            <SiLogstash className="text-xl text-purple-600" />
             <div>Logs</div>
           </div>
-          <div className="ml-2 flex gap-2 pb-2">
-            <AiFillSetting className="text-2xl text-purple-600" />
+          <div className="ml-2 items-center flex gap-2 pb-2">
+            <AiFillSetting className="text-xl text-purple-600" />
             <div>Settings</div>
           </div>
         </div>
 
         <div className="mb-4">
           <div className="pb-2">USER</div>
-          <div className="ml-2 flex gap-2 pb-2">
-            <CgProfile className="text-2xl text-purple-600" />
+          <div className="ml-2 items-center flex gap-2 pb-2">
+            <CgProfile className="text-xl text-purple-600" />
             <div>Profile</div>
           </div>
-          <div className="ml-2 flex gap-2 pb-2">
-            <TbLogout className="text-2xl text-purple-600" />
+          <div className="ml-2 items-center flex gap-2 pb-2">
+            <TbLogout className="text-xl text-purple-600" />
             <div>Logout</div>
           </div>
         </div>
