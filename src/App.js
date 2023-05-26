@@ -1,15 +1,12 @@
-import Income from "./component/Income";
-import Notes from "./component/Notes";
+
 import Sidebar from "./component/Sidebar";
-import Topbar from "./component/Topbar";
+import Rightbar from "./component/Rightbar";
 
 function App() {
   return (
-    <div>
+    <div className="flex">
       <Sidebar />
-      <Topbar />
-      <Notes />
-      <Income />
+      <Rightbar />
     </div>
   );
 }
