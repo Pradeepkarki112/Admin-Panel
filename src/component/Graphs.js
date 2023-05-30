@@ -6,7 +6,7 @@ import { AiOutlineDown, AiOutlineUp } from "react-icons/ai";
 
 const Graphs = () => {
   return (
-    <div>
+    <div className="flex">
       <div className=" m-5 p-3 w-96 h-84 shadow-lg text-center text-gray-500">
         <div className="flex justify-between">
           <div>Total Revenue</div>
@@ -46,6 +46,10 @@ const Graphs = () => {
             </div>
           </div>
         </div>
+      </div>
+
+      <div className="m-5 p-3 w-full h-84 shadow-lg text-gray-500">
+        <div>Last 6 Months (income)</div>
       </div>
     </div>
   );
