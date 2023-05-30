@@ -1,12 +1,9 @@
-
-import Sidebar from "./component/Sidebar";
-import Rightbar from "./component/Rightbar";
+import Dashboard from "./Pages/Dashboard";
 
 function App() {
   return (
-    <div className="flex">
-      <Sidebar />
-      <Rightbar />
+    <div>
+      <Dashboard />
     </div>
   );
 }
