@@ -1,8 +1,13 @@
 import React from 'react'
+import Navbar from './Navbar'
+import Bodybar from './Bodybar'
 
 const Rightbar = () => {
   return (
-    <div>Rightbar</div>
+    <div className='flex-auto'>
+      <Navbar/>
+      <Bodybar/>
+    </div>
   )
 }
 

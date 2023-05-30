@@ -2,19 +2,19 @@ import React from "react";
 import { MdDashboard } from "react-icons/md";
 import { BsPerson, BsCreditCard2Back } from "react-icons/bs";
 import { SiHomeassistantcommunitystore } from "react-icons/si";
-import { TbTruckDelivery } from "react-icons/tb";
 import { ImStatsDots } from "react-icons/im";
 import { IoIosNotificationsOutline } from "react-icons/io";
-import { AiFillSetting } from "react-icons/ai";
-import { TbLogout } from "react-icons/tb";
-import { CgProfile } from "react-icons/cg";
 import { MdHealthAndSafety } from "react-icons/md";
 import { SiLogstash } from "react-icons/si";
+import { AiFillSetting } from "react-icons/ai";
+import { TbTruckDelivery } from "react-icons/tb";
+import { TbLogout } from "react-icons/tb";
+import { CgProfile } from "react-icons/cg";
 
 const Sidebar = () => {
   return (
-    <div className="w-1/6 border border-gray-500">
-      <div className="py-3 font-bold border-b border-gray-500 flex justify-center text-purple-600">
+    <div className="w-[12%] border border-gray-500">
+      <div className="py-3 font-semibold text-2xl border-b border-gray-500 flex justify-center text-purple-600">
         Admin-Panel
       </div>
 
