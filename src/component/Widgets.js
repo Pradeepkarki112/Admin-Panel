@@ -12,7 +12,7 @@ import {
 
 const Bodybar = () => {
   return (
-    <div className="my-7 mx-5 flex justify-between">
+    <div className="my-7 mx-5 flex justify-between flex-wrap">
       <div className="w-72 h-40 p-3 grid gap-5 rounded-lg shadow-lg">
         <div className="flex justify-between">
           <div>USERS</div>

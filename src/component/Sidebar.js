@@ -13,12 +13,12 @@ import { CgProfile } from "react-icons/cg";
 
 const Sidebar = () => {
   return (
-    <div className="w-[12%] border border-gray-500">
+    <div className="w-48 border border-gray-500">
       <div className="py-3 font-semibold text-2xl border-b border-gray-500 flex justify-center text-purple-600">
         Admin-Panel
       </div>
 
-      <div className="mt-6 ml-4 text-gray-500">
+      <div className="mt-2 ml-4 text-gray-500">
         <div className="mb-4">
           <div className="pb-2">MAIN</div>
           <div className="ml-2 items-center flex gap-2">
@@ -27,7 +27,7 @@ const Sidebar = () => {
           </div>
         </div>
 
-        <div className="mb-4">
+        <div className="mb-2">
           <div className="pb-2">LISTS</div>
           <div className="ml-2 items-center flex gap-2 pb-2">
             <BsPerson className="text-xl text-purple-600" />
@@ -47,7 +47,7 @@ const Sidebar = () => {
           </div>
         </div>
 
-        <div className="mb-4">
+        <div className="mb-2">
           <div className="pb-2">USEFUL</div>
           <div className="ml-2 items-center flex gap-2 pb-2">
             <ImStatsDots className="text-xl text-purple-600" />
@@ -59,7 +59,7 @@ const Sidebar = () => {
           </div>
         </div>
 
-        <div className="mb-4">
+        <div className="mb-2">
           <div className="pb-2">SERVICE</div>
           <div className="ml-2 items-center flex gap-2 pb-2">
             <MdHealthAndSafety className="text-xl text-purple-600" />
@@ -75,7 +75,7 @@ const Sidebar = () => {
           </div>
         </div>
 
-        <div className="mb-4">
+        <div className="mb-2">
           <div className="pb-2">USER</div>
           <div className="ml-2 items-center flex gap-2 pb-2">
             <CgProfile className="text-xl text-purple-600" />
@@ -87,7 +87,7 @@ const Sidebar = () => {
           </div>
         </div>
 
-        <div className="mb-4">
+        <div className="mb-2">
           <div className="pb-2">THEME</div>
           <div className="flex gap-4">
             <div className="border-2 border-purple-600 rounded-md w-8 h-8 bg-white"></div>

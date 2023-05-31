@@ -3,6 +3,23 @@ import { BiDotsVerticalRounded } from "react-icons/bi";
 import { CircularProgressbar } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 import { AiOutlineDown, AiOutlineUp } from "react-icons/ai";
+import {
+  AreaChart,
+  Area,
+  XAxis,
+  CartesianGrid,
+  Tooltip,
+  ResponsiveContainer,
+} from "recharts";
+
+const data = [
+  { name: "January", Total: 1200 },
+  { name: "February", Total: 2100 },
+  { name: "March", Total: 800 },
+  { name: "April", Total: 1600 },
+  { name: "May", Total: 900 },
+  { name: "June", Total: 1700 },
+];
 
 const Graphs = () => {
   return (
@@ -48,8 +65,37 @@ const Graphs = () => {
         </div>
       </div>
 
-      <div className="m-5 p-3 w-full h-84 shadow-lg text-gray-500">
-        <div>Last 6 Months (income)</div>
+      <div className=" w-[1000px] shadow-xl">
+        <h1 className=" text-[#888] font-semibold ml-2 mt-2 ">
+          Last 6 Months (income)
+        </h1>
+
+        <ResponsiveContainer width="100%" aspect={2 / 1}>
+          <AreaChart
+            width={730}
+            height={210}
+            data={data}
+            margin={{ top: 10, right: 30, left: 0, bottom: 0 }}
+          >
+            <defs>
+              <linearGradient id="colorUv" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="5%" stopColor="#8884d8" stopOpacity={0.8} />
+                <stop offset="95%" stopColor="#8884d8" stopOpacity={0} />
+              </linearGradient>
+            </defs>
+            <XAxis dataKey="name" />
+
+            <CartesianGrid className=" stroke-white " strokeDasharray="3 3" />
+            <Tooltip />
+            <Area
+              type="monotone"
+              dataKey="Total"
+              stroke="#8884d8"
+              fillOpacity={1}
+              fill="url(#colorUv)"
+            />
+          </AreaChart>
+        </ResponsiveContainer>
       </div>
     </div>
   );

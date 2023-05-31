@@ -9,7 +9,7 @@ const Dashboard = () => {
     <div className="flex">
       <Sidebar />
 
-      <div className="flex-auto">
+      <div className="flex-cols w-[1320px]">
         <Navbar />
         <Widgets />
         <Graphs />
